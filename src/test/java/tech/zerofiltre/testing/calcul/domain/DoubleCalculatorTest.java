@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 	   void initCalculator() {
 		calculatorUnderTest = new Calculator();
 	}
-	
+	/*
 	@Test
 	@Disabled("Test ambigue et hors limite du type double")
 	   void subTwoDoubleNumbers_shouldReturnsTheCorrectAnswer() {
@@ -25,5 +25,5 @@ import org.junit.jupiter.api.Test;
 			throw new AssertionError(String.format("Erreur :\nAttendu :  0,0000000001\n Résultat : %.10f", result));
 		}
 		
-	}
+	}*/
 }
